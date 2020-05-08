@@ -1,0 +1,32 @@
+title: fabdultf
+description: "A digital space"
+author:
+  name: "fabdultf"
+  email: "fabdultf@gmail.com"
+  url: "wwww.fabdultf.com"
+
+baseurl: /
+
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 3
+paginate_path: /page/:num/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Custom variables
+owner : "fabdultf"
+year : "2020"
