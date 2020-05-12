@@ -6,3 +6,7 @@ show_downloads: false
 github:
   is_project_page: false
   show_downloads: false
+
+footer-links:
+  twitter: fabdultf
+
