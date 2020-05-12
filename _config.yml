@@ -1,7 +1,6 @@
 # Site settings
 title: Klise Theme
-description: >-
-	this is a digital space
+description: this is a digital space
 lang: en-US
 timezone: Asia/Riyadh
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
