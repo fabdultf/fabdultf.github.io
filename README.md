@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Jekyll Serif Theme
 
 Serif is a modern business theme for Jekyll. It contains multiple content types for a typical brochure/marketing website. The theme is fully responsive, blazing fast and artfully illustrated.
@@ -101,3 +102,6 @@ I've been building open source themes for all the main static site generators fo
 - [Jekyll Curate (Premium)](https://www.zerostatic.io/theme/jekyll-curate/)
 
 🇦🇺 **Made in Australia** by Robert Austin
+=======
+# fabdultf.github.io
+>>>>>>> d7aabb4 (Initial commit)
