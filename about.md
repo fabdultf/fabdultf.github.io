@@ -10,7 +10,6 @@ de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
 crimen habet Priamum nec.
 
 /*/![Accounting Services](/images/thom-holmes-Lrfw0U_o9I0-unsplash.jpg)
-*/
 # Objectives
 
 Financial accounting and financial reporting are often used as synonyms.
@@ -46,6 +45,7 @@ Comparability is the uniform application of accounting methods across entities i
 Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant.
 Timeliness: Timeliness implies that financial information must be presented to the users before a decision is to be made.
 
+*/
 ---
 
 ## Statement of cash flows
