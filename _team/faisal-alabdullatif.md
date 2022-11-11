@@ -1,8 +1,8 @@
 ---
-title: "Mike Vance"
+title: "Faisal Alabdullatif"
 date: 2018-12-20T13:44:30+10:00
-image: "images/team/joseph-gonzalez-399972-unsplash.jpg"
-jobtitle: "Art Director"
+image: "images/team/faisal.jpg"
+jobtitle: ".Cloud"
 linkedinurl: ""
 weight: 3
 ---
