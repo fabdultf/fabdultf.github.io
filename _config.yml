@@ -10,6 +10,10 @@ logo:
   desktop_height: "32px"
   desktop_width: "120px"
 
+social:
+  twitter: "fabdultf"
+  github: "fabdultf"
+
 home: 
   limit_services: 6
 
