@@ -1,19 +1,25 @@
-<div class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="footer-inner">
-          <h2 class="footer-title">{{site.title}}</h2>
-          <ul>
-            {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
-            {% for item in footermenu %}
-            <li class="{% if item.url == page.url %}active{% endif %}">
-              <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<footer class="footer">
+  <a class="footer_item" href="/thanks">ack.</a>
+  <a class="footer_item" href="/resume">resume</a>
+  <a class="footer_item" href="/feed.xml">rss</a>
+  <span class="footer_item">&copy; {{ site.time | date: "%Y" }}</span>
+  <small class="footer_theme-copyright">
+    <!-- Klisé Theme: https://github.com/piharpi/jekyll-klise -->
+    <a
+      href="https://github.com/piharpi/jekyll-klise"
+      target="_blank"
+      rel="noreferrer noopener"
+      >klisé</a
+    >
+    theme on
+    <a href="https://jekyllrb.com" target="_blank" rel="noreferrer noopener"
+      >jekyll</a
+    >
+  </small>
+</footer>
+<script src="/assets/js/main.js" defer="defer"></script>
+<script src="/assets/js/galite.js"></script>
+<script>
+  var galite = galite || {};
+  galite.UA = "{{ site.google_analytics }}";
+</script>

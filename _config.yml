@@ -1,55 +1,78 @@
-baseurl: '/'
-permalink: pretty
-title: 'Faisal Alabdullatif'
+# Site settings
+title: fabdultf
+description: this is a digital space
+lang: en-US
+timezone: Asia/Riyadh
+image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+mode: dark # default theme "dark" | "light"
 
-logo:
-  mobile: "images/logo/logo-mobile.svg"
-  mobile_height: "32px"
-  mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
-  desktop_height: "32px"
-  desktop_width: "120px"
+# Profile settings
+author:
+  name: Faisal
+  #bio: >-
+  #  The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog, 
+  username: fabdultf
+  email: fabdultf@gmail.com
+  avatar: /assets/img/avatar.jpg
 
-social:
-  twitter: "fabdultf"
-  github: "fabdultf"
+# Url settings
+url: "http://www.fabdultf.com"
+baseurl:
+permalink: /:title/
+#google_analytics:
+#fb_appid:
 
-home: 
-  limit_services: 6
-
+# Collection setting
 collections:
-  services:
-    output: true
-    sort_by: weight
-  team:
+  posts:
     output: true
 
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Default front matter
 defaults:
   - scope:
       path: ""
-      type: "services"
     values:
-      layout: "service"
-  - scope:
-      path: ""
-      type: "team"
-    values:
-      layout: "team"
+      layout: post
+      comments: false
 
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Build settings
 sass:
-  style: compressed # possible values: nested expanded compact compressed
+  style: compressed
 
-plugins:
-  - jekyll-environment-variables
+include:
+  - _redirects
+  - .htaccess
 
 exclude:
+  - CNAME
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - LICENSE.md
   - LICENSE
+  - CHANGELOG.md
   - README.md
+  - node_modules
+  - CODE_OF_CONDUCT.md
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sass-converter
+  - jekyll-sitemap
+  - jekyll-postfiles
